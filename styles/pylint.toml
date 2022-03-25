@@ -1,13 +1,13 @@
-[nitpick.files.present]
-".pylintrc" = ""
-".style.yapf" = ""
-
-[".pylintrc"."MESSAGES CONTROL"]
-disable = "bad-indentation, invalid-name, line-too-long, missing-docstring, unspecified-encoding"
-
 [".pylintrc".DESIGN]
 max-args = 5
 max-branches = 10
 
+[".pylintrc"."MESSAGES CONTROL"]
+disable = "bad-indentation, invalid-name, line-too-long, missing-docstring, unspecified-encoding"
+
 [".pylintrc".STRING]
 check-quote-consistency = "yes"
+
+[nitpick.files.present]
+".pylintrc" = ""
+".style.yapf" = ""

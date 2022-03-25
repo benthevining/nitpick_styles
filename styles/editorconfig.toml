@@ -1,7 +1,3 @@
-[nitpick.files.present]
-".editorconfig" = ""
-".ecrc" = ""
-
 [".editorconfig"]
 root = true
 
@@ -18,9 +14,13 @@ max_line_length = "off"
 [".editorconfig"."*.md"]
 trim_trailing_whitespace = "false"
 
+[".editorconfig"."*.xml"]
+indent_style = "space"
+
 [".editorconfig"."*.{yml,yaml,json}"]
 indent_style = "space"
 indent_size = 2
 
-[".editorconfig"."*.xml"]
-indent_style = "space"
+[nitpick.files.present]
+".editorconfig" = ""
+".ecrc" = ""

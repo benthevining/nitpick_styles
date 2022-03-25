@@ -1,6 +1,8 @@
-[nitpick.files.present]
-".gitlint" = ""
-".gitownrc" = ""
+[".gitlint".body-max-line-length]
+line-length = 250
+
+[".gitlint".contrib-title-conventional-commits]
+types = "fix, feat, chore, docs, style, refactor, test, ci"
 
 [".gitlint".general]
 ignore = "title-trailing-punctuation, body-is-missing"
@@ -14,8 +16,6 @@ line-length = 200
 [".gitlint".title-min-length]
 min-length = 10
 
-[".gitlint".body-max-line-length]
-line-length = 250
-
-[".gitlint".contrib-title-conventional-commits]
-types = "fix, feat, chore, docs, style, refactor, test, ci"
+[nitpick.files.present]
+".gitlint" = ""
+".gitownrc" = ""

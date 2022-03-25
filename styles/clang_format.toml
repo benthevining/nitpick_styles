@@ -1,6 +1,3 @@
-[nitpick.files.present]
-".clang-format" = ""
-
 [".clang-format"]
 AccessModifierOffset = -4
 AlignAfterOpenBracket = "Align"
@@ -96,3 +93,6 @@ Standard = "c++20"
 TabWidth = 4
 UseCRLF = false
 UseTab = "Always"
+
+[nitpick.files.present]
+".clang-format" = ""

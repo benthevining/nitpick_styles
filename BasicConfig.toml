@@ -4,7 +4,7 @@ minimum_version = "0.10.0"
 [nitpick.files.present]
 "CHANGELOG.md" = ""
 "README.md" = ""
-"LICENSE" = ""
+LICENSE = ""
 
 [nitpick.styles]
 include = [
