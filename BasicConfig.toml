@@ -15,6 +15,5 @@ include = [
 	"styles/markdownlint.toml",
 	"styles/package_json.toml",
 	"styles/precommit_config.toml",
-	"styles/pylint.toml",
 	"styles/tool_versions.toml"
 ]
